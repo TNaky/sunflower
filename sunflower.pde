@@ -18,7 +18,7 @@ void createInterNodes(double cx, double cy, double radius, double step, double t
   ellipse((int) cx, (int) cy, 6, 6);
   
   double d = 0;
-  int n = 1;
+  int n = 0;
   while(true) {
     double x = step * Math.sqrt(n) * Math.cos(n * theta);
     double y = step * Math.sqrt(n) * Math.sin(n * theta);
